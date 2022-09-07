@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/Saptarshi2446/Self-test.git', branch:'master'
+        git url:'https://github.com/Saptarshi2446/integrate.git', branch:'master'
       }
     }
     
